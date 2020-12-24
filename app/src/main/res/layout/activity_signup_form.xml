@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupForm">
+
+    <EditText
+        android:id="@+id/etRegus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="80sp"
+        android:layout_marginLeft="90sp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/etRegPa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="140sp"
+        android:layout_marginLeft="90sp"
+        android:textSize="20sp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etRegNa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="90sp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etRegAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="260sp"
+        android:layout_marginLeft="90sp"
+        android:textSize="20sp"
+        android:hint="Age"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etRegPh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="320sp"
+        android:layout_marginLeft="90sp"
+        android:textSize="20sp"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380sp"
+        android:layout_marginLeft="80sp"
+        android:textSize="15sp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btCan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380sp"
+        android:layout_marginLeft="240sp"
+        android:textSize="15sp"
+        android:text="Cancel" />
+
+</RelativeLayout>

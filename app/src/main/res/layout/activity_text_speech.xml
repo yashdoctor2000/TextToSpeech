@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextSpeech">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30sp"
+        android:textSize="30sp"
+        android:hint="Enter Message" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="80sp"
+        android:textSize="20sp"
+        android:text="Click to listen" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240sp"
+        android:layout_marginLeft="80sp"
+        android:textSize="20sp"
+        android:text="Click to Speak" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="350sp"
+        android:layout_height="400sp"
+        android:layout_marginTop="320sp"
+        android:layout_marginLeft="30sp"
+        android:textSize="30sp"
+        android:text="Your Speech is Here" />
+
+
+</RelativeLayout>
